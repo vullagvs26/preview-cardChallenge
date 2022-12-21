@@ -1,0 +1,117 @@
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: "Montserrat";
+}
+
+button {
+  padding: 15px 80px;
+  border-radius: 10px;
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  font-family: "Montserrat-Bold";
+  font-size: 16px;
+  color: white;
+  position: relative;
+  left: 5%;
+  margin-top: 7%;
+}
+h1 {
+  font-family: "Fraunces";
+  font-size: 40px;
+  line-height: 1em;
+  margin-top: 2%;
+  margin-bottom: 0%;
+}
+h2 {
+  color: grey;
+  letter-spacing: 5px;
+  font-size: 20px;
+  margin: 0%;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+h3 {
+  font-size: 30px;
+  margin: 0%;
+  color: hsla(158, 75%, 16%, 0.795);
+}
+h4 {
+  text-decoration-line: line-through;
+  color: grey;
+  margin: 0%;
+  margin-left: 2%;
+}
+p {
+  margin-top: 2%;
+  color: grey;
+  line-height: 1.5em;
+}
+/* card */
+#card {
+  background-color: white;
+  width: 600px;
+  height: 450px;
+  position: relative;
+  margin-top: 10%;
+  left: 35%;
+  border-radius: 15px;
+}
+img {
+  width: 100%;
+  height: 450px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+/* container */
+.flexbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* item */
+.flexbox-item {
+  width: 300px;
+}
+.flexbox-item2 {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.price {
+  display: flex;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #1a4032;
+}
+
+@media screen and (max-width: 965px) {
+  #card {
+    margin-top: 10%;
+    position: relative;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+  }
+  .flexbox-item {
+    width: 50%;
+  }
+  .price {
+    justify-content: center;
+  }
+  button {
+    padding: 15px 60px;
+    position: relative;
+    left: 0%;
+  }
+}
